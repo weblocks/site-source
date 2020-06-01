@@ -1,0 +1,13 @@
+name: Weblocks Official Site
+
+languages: ['ja', 'en']
+default_lang: 'ja'
+exclude_from_localization: ['javascript', 'css', 'images']
+parallel_localization: false
+
+url: "https://weblocks.github.io"
+
+plugins:
+  - jekyll-polyglot
+  - jekyll-seo-tag
+  - jekyll-sitemap

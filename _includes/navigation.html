@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <a class="navbar-brand" href="/">
+    <img src="/favicon.ico" width="32" height="32" class="d-inline-block align-top" alt="">
+    Weblocks
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      {% for item in site.data.navigation %}
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == item.link %} text-primary {% endif %}" href="{{ item.link }}">{{ item.name }}</a>
+        </li>
+      {% endfor %}
+      {% if page.sideMenuName %}
+        <div class="d-block d-sm-none">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSideMenu" aria-controls="navbarSideMenu" aria-expanded="false" aria-label="Toggle navigation">
+<!--        {{ page.sideMenuName }} -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          {% include side_menu.html %}
+        </div>
+      {% endif %}
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {% case page.lang %}
+            {% when "ja" %}
+              <img src="/assets/images/Japan.png" width="24" height="24" alt="">
+            {% else %}
+              <img src="/assets/images/United Kingdom.png" width="24" height="24" alt="">
+          {% endcase %}
+        </a>
+        <div class="dropdown-menu dropdown-menu-right bg-light" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item bg-light" href="/en{{ page.url }}">
+            <img src="/assets/images/United Kingdom.png" width="24" height="24" class="d-inline-block align-top" alt="">
+            {% case page.lang %}
+              {% when "ja" %}
+                英語
+              {% else %}
+                English
+            {% endcase %}
+          </a>
+          <a class="dropdown-item bg-light" href=" {{ page.url }}">
+            <img src="/assets/images/Japan.png" width="24" height="24" class="d-inline-block align-top" alt="">
+            {% case page.lang %}
+              {% when "ja" %}
+                日本語
+              {% else %}
+                Japanese
+            {% endcase %}
+          </a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/weblocks/weblocks" target="_blank" rel="noopener noreferre">
+          <img src="/assets/images/GitHub-Mark-32px.png" width="24" height="24" class="d-inline-block align-top" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
