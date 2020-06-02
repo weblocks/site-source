@@ -1,0 +1,131 @@
+<div class="py-4 bg-light">
+  <section id="about">
+    <div class="container">
+      <!-- 上段 -->
+      <div class="row mb-4">
+        <div class="col-md-8 mb-3">
+          <h3 class="mb-3">
+            {% case page.lang %}
+              {% when "ja" %}
+                Weblocks について
+              {% else %}
+                About Weblocks
+            {% endcase %}
+          </h3>
+          <p>
+            {% case page.lang %}
+              {% when "ja" %}
+                WeblocksはCMSで、オープンソースだよ。<br>
+                色々な事ができるけど、言葉で説明するよりも触った方が早いかなぁ。<br>
+                まずはデモを見てね。<br>
+                IDはdemo, パスワードもdemoだよ。
+              {% else %}
+                Weblocks is a CMS and open source.<br>
+                You can do a lot of things, but I guess it's faster to touch it than to explain it in words.<br>
+                First, take a look at the demo.<br>
+                ID is demo, password is demo.
+            {% endcase %}
+          </p>
+          <a href="#" class="btn btn-info disabled">
+            {% case page.lang %}
+              {% when "ja" %}
+                デモ 
+              {% else %}
+                Demo
+            {% endcase %}
+          </a>
+          <a href="#" class="btn btn-info disabled">
+            {% case page.lang %}
+              {% when "ja" %}
+                次は...
+              {% else %}
+               Next... 
+            {% endcase %}
+          </a>
+        </div>
+        <div class="col-md-4">
+          <img src="/assets/images/blocks.jpg" alt="" class="img-fluid d-none d-md-block">
+        </div>
+      </div>
+      <!-- /上段 -->
+      <!-- 下段 -->
+      <div class="row">
+        <div class="col-md-4">
+          <!-- カード01 -->
+          <div class="card mb-3">
+            <img src="/assets/images/open_door.jpg" alt="" class="img-fluid">
+            <!-- カードの本文エリア -->
+            <div class="card-body d-flex justify-content-between">
+              <h5 class="card-title">
+                {% case page.lang %}
+                  {% when "ja" %}
+                    Weblocks
+                  {% else %}
+                    Weblocks
+                {% endcase %}
+              </h5>
+              <a href="#" class="btn btn-primary disabled">
+                {% case page.lang %}
+                  {% when "ja" %}
+                    ログイン
+                  {% else %}
+                    Login
+                {% endcase %}
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <!-- カード02 -->
+          <div class="card mb-3">
+            <img src="/assets/images/welcome.jpg" alt="" class="img-fluid">
+            <!-- カードの本文エリア -->
+            <div class="card-body d-flex justify-content-between">
+              <h5 class="card-title">
+                {% case page.lang %}
+                  {% when "ja" %}
+                    ユーザ登録
+                  {% else %}
+                    Account
+                {% endcase %}
+              </h5>
+              <a href="#" class="btn btn-success disabled">
+                {% case page.lang %}
+                  {% when "ja" %}
+                    申請
+                  {% else %}
+                   Registration 
+                {% endcase %}
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <img src="/assets/images/GPL_image.jpg" alt="" class="img-fluid">
+            <!-- カードの本文エリア -->
+            <div class="card-body d-flex justify-content-between bg-secondary">
+              <h5 class="card-title text-white">
+                {% case page.lang %}
+                  {% when "ja" %}
+                    使用許諾
+                  {% else %}
+                    License
+                {% endcase %}
+              </h5>
+              <a href="#" class="btn btn-warning disabled">
+                {% case page.lang %}
+                  {% when "ja" %}
+                    詳しく見る
+                  {% else %}
+                    Detail
+                {% endcase %}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /下段 -->
+    </div>
+  </section>
+</div>

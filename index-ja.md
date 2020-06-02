@@ -8,4 +8,5 @@ lang: 'ja'
 canonical_url: 'https://weblocks.github.io/index'
 sideMenuTitle: ""
 ---
-Weblocks公式サイト
+{% include slide_show.html %}
+{% include home.html %}

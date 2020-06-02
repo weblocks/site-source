@@ -8,4 +8,5 @@ lang: 'en'
 canonical_url: 'https://weblocks.github.io/index'
 sideMenuTitle: ""
 ---
-Weblocks official site
+{% include slide_show.html %}
+{% include home.html %}
