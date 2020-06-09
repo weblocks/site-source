@@ -1,8 +1,6 @@
-$('#sideBar').on('show.bs.collapse', function() {
-  $('#side-menu').removeClass('d-none');
-  $('#side-menu').removeClass('d-sm-block');
+$('#navbarSupportedContent').on('show.bs.collapse', function() {
+  $('#sideBar').collapse('hide');
 })
-$('#sideBar').on('hide.bs.collapse', function() {
-  $('#side-menu').addClass('d-none');
-  $('#side-menu').addClass('d-sm-block');
+$('#sideBar').on('show.bs.collapse', function() {
+  $('#navbarSupportedContent').collapse('hide');
 })
