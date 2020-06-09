@@ -19,6 +19,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/styles.css">
 
     <!-- favicon -->
@@ -48,26 +50,26 @@
         {% include navigation.html %}
       </div>
     </header>
-    <main>
-      <div class="container-fluid">
-        <div class="row">
-        {% if page.sideMenu == true %}
-          <div class="col-12 col-sm-5 col-md-4 col-xl-3">
-            <div class="sidebar_fixed d-none d-sm-block">
-              {% include side_menu.html %}
+
+    <div class="d-flex">
+    {% if page.sideMenu == true %}
+      <div class="d-none d-sm-block" style="padding-left: 15px; min-width: 14rem;">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light sidebar-fixed">
+          {% include side_menu.html %}
+        </nav>
+      </div>
+    {% endif %}
+      <main>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              {{ content }}
             </div>
           </div>
-          <div class="col-12 col-sm-7 col-md-8 col-xl-9">
-            {{ content }}
-          </div>
-        {% else %}
-          <div class="col-12">
-            {{ content }}
-          </div>
-        {% endif %}
         </div>
-      </div>
-    </main>
+      </main>
+    </div>
+
     <footer class="footer">
       <div class="container-fluid">
         <div class "row">
