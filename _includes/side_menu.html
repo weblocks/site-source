@@ -1,0 +1,39 @@
+<div class="collapse navbar-collapse" id="sideBar">
+  <div class="list-group">
+  {% for level1 in site.data.sideMenu[page.sideMenuName] %}
+    {% if page.category == level1.category %}
+      {% assign level1_collapse = "true" %}
+      {% assign level1_show = "show" %}
+    {% else %}
+      {% assign level1_collapse = "false" %}
+      {% assign level1_show = "" %}
+    {% endif %}
+
+    <a class="list-group-item bg-light p-0 m-0 border-0 text-reset font-weight-bold collapse-arrow" data-toggle="collapse" href="#collapse{{ level1.category }}" aria-expanded="{{ level1_collapse }}" aria-controlls="collapse{{ level1.category }}">
+      {{ level1.category }}
+    </a>
+    <div class="collapse list-group {{ level1_show }}" id="collapse{{ level1.category }}">
+    {% for level2 in level1.contents %}
+      {% if page.category2 == level2.category %}
+        {% assign level2_collapse = "true" %}
+        {% assign level2_show = "show" %}
+      {% else %}
+        {% assign level2_collapse = "false" %}
+        {% assign level2_show = "" %}
+      {% endif %}
+      {% if level2.category %}
+      <a class="list-group-item bg-light p-0 ml-3 border-0 text-reset font-weight-bold collapse-arrow" data-toggle="collapse" href="#collapse{{ level2.category }}" aria-expanded="{{ level2_collapse }}" aria-controlls="collapse{{ level2.category }}">
+        {{ level2.category }}
+      </a>
+      <div class="collapse list-group {{ level2_show }}" id="collapse{{ level2.category }}">
+      {% for level3 in level2.contents %}
+        <a class="list-group-item bg-light p-0 ml-5 border-0 text-reset" href="{{ level3.link }}">{{ level3.name }}</a>
+      {% endfor %}
+      </div>
+      {% endif %}
+      <a class="list-group-item bg-light p-0 ml-3 border-0 text-reset" href="{{ level2.link }}">{{ level2.name }}</a>
+    {% endfor %}
+    </div>
+  {% endfor %}
+  </div>
+</div>
