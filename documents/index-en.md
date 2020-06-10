@@ -19,9 +19,12 @@ It is good to give fish to hungry people.<br>
 It is better to teach them how to fish.<br>
 It is best to teach them how to make a hook.<br>
 <br>
-This is the purpose of writing the documentation.<br>
+There is a lot written in this document.<br>
+I'll teach you how to look it up.<br>
+Ultimately, I hope you will be able to create new open source.<br>
 <br>
-The software related to Weblocks is shown below. See the menu for details.
+The relationship diagram of Weblocks is as below.<br>
+It is not a precise figure because it is a diagram for clarity.
       </p>
     </div>
   </div>
@@ -34,8 +37,7 @@ The software related to Weblocks is shown below. See the menu for details.
     <div class="col-12">
       <p>
 Weblocks development is done on GitHub.<br>
-So be sure to know about GitHub.<br>
-See also the menu on GitHub.
+So be sure to know about GitHub.
       </p>
     </div>
   </div>
