@@ -13,19 +13,19 @@ category: ""
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <h3>About documents</h3>
-      <p>
-It is good to give fish to hungry people.<br>
-It is better to teach them how to fish.<br>
-It is best to teach them how to make a hook.<br>
-<br>
+      <h1>About documents</h1>
+Once upon a time, a great person said.
+      <ul>
+        <li>It is good to give fish to hungry people.</li>
+        <li>It is better to teach them how to fish.</li>
+        <li>It is best to teach them how to make a hook.</li>
+      </ul>
 There is a lot written in this document.<br>
 I'll teach you how to look it up.<br>
 Ultimately, I hope you will be able to create new open source.<br>
 <br>
 The relationship diagram of Weblocks is as below.<br>
 It is not a precise figure because it is a diagram for clarity.
-      </p>
     </div>
   </div>
   <div class="row">
