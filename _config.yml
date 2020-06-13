@@ -2,8 +2,9 @@ name: Weblocks Official Site
 
 languages: ['ja', 'en']
 default_lang: 'ja'
-exclude_from_localization: ['javascript', 'css', 'images']
-parallel_localization: false
+exclude_from_localization: ['javascript', 'images']
+parallel_localization: true
+lang_from_path: true
 
 url: "https://weblocks.github.io"
 

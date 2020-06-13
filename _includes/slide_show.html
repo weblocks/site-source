@@ -1,74 +1,56 @@
-  <div class="container-fluid p-0">
-    <!-- カルーセル外枠 -->
-    <div id="main_visual" class="carousel slide carousel-fade" data-ride="carousel">
-      <!-- インジケーター -->
-      <ol class="carousel-indicators">
-        <li data-target="#main_visual" data-slide-to="0" class="active"></li>
-        <li data-target="#main_visual" data-slide-to="1"></li>
-        <li data-target="#main_visual" data-slide-to="2"></li>
-      </ol>
-      <!-- / インジケーター -->
-      <!-- カルーセル内枠 -->
-      <div class="carousel-inner">
-        <!-- スライド01 -->
-        <div class="carousel-item active">
-          <img class="img-fluid" src="/assets/images/play_block.jpg" alt="">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-left outline1">
-              {% case page.lang %}
-                {% when "ja" %}
-                  まるでブロック遊びの様な感覚<br>
-                  それがWeblocksさ
-                {% else %}
-                  Like playing with block toys.<br>
-                  It is weblocks.
-              {% endcase %}
-            </h3>
-            <p>
-            </p>
-          </div>
+<div class="container-fluid p-0">
+  <div id="main_visual" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#main_visual" data-slide-to="0" class="active"></li>
+      <li data-target="#main_visual" data-slide-to="1"></li>
+      <li data-target="#main_visual" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="img-fluid" src="/assets/images/play_block.jpg" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-left outline1">
+            {% case page.lang %}
+              {% when "ja" %}
+                まるでブロック遊びの様な感覚<br>
+                それがWeblocksさ
+              {% else %}
+                Like playing with block toys.<br>
+                It is weblocks.
+            {% endcase %}
+          </h3>
         </div>
-        <!-- / スライド01 -->
-        <!-- スライド02 -->
-        <div class="carousel-item">
-          <img class="img-fluid" src="/assets/images/coffee_break.jpg" alt="">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-left outline1">
-              {% case page.lang %}
-                {% when "ja" %}
-                  君のやりたい事は何？<br>
-                  きっとWeblocksが役に立つよ
-                {% else %}
-                  What do you want to do?<br>
-                  Surely Weblocks will be useful.
-              {% endcase %}
-            </h3>
-            <p>
-            </p>
-          </div>
-        </div>
-        <!-- / スライド02 -->
-        <!-- スライド03 -->
-        <div class="carousel-item">
-          <img class="img-fluid" src="/assets/images/programming_image.jpg" alt="">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-left outline1">
-              {% case page.lang %}
-                {% when "ja" %}
-                  仕組みについて知りたい？<br>
-                  じゃあWeblocksの内部へ案内するよ
-                {% else %}
-                  Want to know about the mechanism?<br>
-                  Now I will guide you to the inside of Weblocks.
-              {% endcase %}
-            </h3>
-            <p>
-            </p>
-          </div>
-        </div>
-        <!-- / スライド03 -->
       </div>
-      <!-- / カルーセル内枠 -->
-   </div>
-    <!-- / カルーセル外枠 -->
+      <div class="carousel-item">
+        <img class="img-fluid" src="/assets/images/coffee_break.jpg" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-left outline1">
+            {% case page.lang %}
+              {% when "ja" %}
+                君のやりたい事は何？<br>
+                きっとWeblocksが役に立つよ
+              {% else %}
+                What do you want to do?<br>
+                Surely Weblocks will be useful.
+            {% endcase %}
+          </h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid" src="/assets/images/programming_image.jpg" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-left outline1">
+            {% case page.lang %}
+              {% when "ja" %}
+                仕組みについて知りたい？<br>
+                じゃあWeblocksの内部へ案内するよ
+              {% else %}
+                Want to know about the mechanism?<br>
+                Now I will guide you to the inside of Weblocks.
+            {% endcase %}
+          </h3>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
