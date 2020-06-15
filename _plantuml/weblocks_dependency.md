@@ -1,4 +1,10 @@
+```uml
 @startuml
+skinparam usecase {
+  BorderColor blue
+  BackgroundColor lightBlue
+  ArrowColor blue
+}
 rectangle License {
   (Weblocks)-d->(Phalcon)
   Weblocks-d->(PHP)
@@ -19,3 +25,4 @@ rectangle License {
   Linux-r->(Security)
 }
 @enduml
+```
