@@ -12,33 +12,25 @@ category: ""
 ---
 <div class="container-fluid">
   <div class="row">
-    <div class="col-12">
+    <div class="col">
       <h1>About documents</h1>
-Once upon a time, a great person said.
-      <ul>
-        <li>It is good to give fish to hungry people.</li>
-        <li>It is better to teach them how to fish.</li>
-        <li>It is best to teach them how to make a hook.</li>
-      </ul>
-There is a lot written in this document.<br>
-I'll teach you how to look it up.<br>
-Ultimately, I hope you will be able to create new open source.<br>
-<br>
-The relationship diagram of Weblocks is as below.<br>
-It is not a precise figure because it is a diagram for clarity.
     </div>
   </div>
   <div class="row">
-    <div class="col-12">
-      <img src="/assets/images/weblocks_dependency.png" class="img-fluid">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
+    <div class="col-12 col-md-6">
       <p>
-Weblocks development is done on GitHub.<br>
-So be sure to know about GitHub.
+        This document is written so that children can understand it.
+        But it's written in a format that answers questions,
+        so you don't know where to start reading.
+        That's why I have Figure 1.
+        First, read Weblocks at the top of Figure 1.
       </p>
+    </div>
+    <div class="col-12 col-md-6">
+      <figure class="figure">
+        <img src="/assets/images/weblocks_dependency.png" class="figure-img img-fluid rounded m-0" alt="Weblocks Dependency">
+        <figcaption class="figure-caption text-right">figure 1</figcaption>
+      </figure>
     </div>
   </div>
 </div>
