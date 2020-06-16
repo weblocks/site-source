@@ -13,7 +13,7 @@ category: "Weblocks"
 <div class="container-fluid">
   <div class="row">
     <div class="col">
-      <h1>weblocksはどう発音するの？</h1>
+      <h1>どう発音するの？</h1>
     </div>
   </div>
   <div class="row">
