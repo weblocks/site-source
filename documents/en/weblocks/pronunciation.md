@@ -13,7 +13,7 @@ category: "Weblocks"
 <div class="container-fluid">
   <div class="row">
     <div class="col">
-      <h1>How to pronouce weblocks？</h1>
+      <h1>How to pronouce？</h1>
     </div>
   </div>
   <div class="row">
