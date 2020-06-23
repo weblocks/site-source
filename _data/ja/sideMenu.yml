@@ -63,7 +63,3 @@
     contents:
     - name: どう発音するの？
       link: /documents/weblocks/pronunciation
-    - category: Sub-menu
-      contents:
-      - name: sub-1
-        link:
