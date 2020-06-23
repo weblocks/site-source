@@ -25,13 +25,13 @@
       <a class="list-group-item bg-light p-0 ml-3 border-0 text-reset font-weight-bold collapse-arrow" data-toggle="collapse" href="#collapse{{ level2.category }}" aria-expanded="{{ level2_collapse }}" aria-controlls="collapse{{ level2.category }}">
         {{ level2.category }}
       </a>
-      <div class="collapse list-group {{ level2_show }}" id="collapse{{ level2.category }}">
+      <div class="collapse list-group {{ level2_show }} p-0 ml-3" id="collapse{{ level2.category }}">
       {% for level3 in level2.contents %}
-        <a class="list-group-item bg-light p-0 ml-5 border-0 text-reset" href="{{ level3.link }}">{{ level3.name }}</a>
+        <a class="list-group-item bg-light p-0 ml-4 border-0 text-reset" href="{{ level3.link }}">{{ level3.name }}</a>
       {% endfor %}
       </div>
       {% endif %}
-      <a class="list-group-item bg-light p-0 ml-3 border-0 text-reset" href="{{ level2.link }}">{{ level2.name }}</a>
+      <a class="list-group-item bg-light p-0 ml-4 border-0 text-reset" href="{{ level2.link }}">{{ level2.name }}</a>
     {% endfor %}
     </div>
   {% endfor %}
