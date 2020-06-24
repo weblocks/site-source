@@ -9,7 +9,7 @@
       {% assign level1_show = "" %}
     {% endif %}
 
-    <a class="list-group-item bg-light p-0 m-0 border-0 text-reset font-weight-bold collapse-arrow" data-toggle="collapse" href="#collapse{{ level1.category }}" aria-expanded="{{ level1_collapse }}" aria-controlls="collapse{{ level1.category }}">
+    <a class="list-group-item bg-light p-0 border-0 text-reset font-weight-bold collapse-arrow" data-toggle="collapse" href="#collapse{{ level1.category }}" aria-expanded="{{ level1_collapse }}" aria-controlls="collapse{{ level1.category }}">
       {{ level1.category }}
     </a>
     <div class="collapse list-group {{ level1_show }}" id="collapse{{ level1.category }}">
@@ -22,16 +22,16 @@
         {% assign level2_show = "" %}
       {% endif %}
       {% if level2.category %}
-      <a class="list-group-item bg-light p-0 ml-3 border-0 text-reset font-weight-bold collapse-arrow" data-toggle="collapse" href="#collapse{{ level2.category }}" aria-expanded="{{ level2_collapse }}" aria-controlls="collapse{{ level2.category }}">
-        {{ level2.category }}
-      </a>
-      <div class="collapse list-group {{ level2_show }} p-0 ml-3" id="collapse{{ level2.category }}">
-      {% for level3 in level2.contents %}
-        <a class="list-group-item bg-light p-0 ml-4 border-0 text-reset" href="{{ level3.link }}">{{ level3.name }}</a>
-      {% endfor %}
-      </div>
+        <a class="list-group-item bg-light border-0 text-reset font-weight-bold collapse-arrow" style="padding: 0px; padding-left: 20px" data-toggle="collapse" href="#collapse{{ level2.category }}" aria-expanded="{{ level2_collapse }}" aria-controlls="collapse{{ level2.category }}">
+          {{ level2.category }}
+        </a>
+        <div class="collapse list-group {{ level2_show }}" id="collapse{{ level2.category }}">
+        {% for level3 in level2.contents %}
+          <a class="list-group-item bg-light border-0 text-reset" style="padding: 0px; padding-left: 60px" href="{{ level3.link }}">{{ level3.name }}</a>
+        {% endfor %}
+        </div>
       {% endif %}
-      <a class="list-group-item bg-light p-0 ml-4 border-0 text-reset" href="{{ level2.link }}">{{ level2.name }}</a>
+      <a class="list-group-item bg-light border-0 text-reset" style="padding: 0px; padding-left: 40px" href="{{ level2.link }}">{{ level2.name }}</a>
     {% endfor %}
     </div>
   {% endfor %}
