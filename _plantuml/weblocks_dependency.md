@@ -1,4 +1,4 @@
-```uml
+```plantuml
 @startuml
 skinparam usecase {
   BorderColor blue
