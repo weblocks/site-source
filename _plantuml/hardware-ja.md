@@ -1,4 +1,4 @@
-```uml
+```plantuml
 @startuml
 rectangle Hardware {
   node 記憶装置 #ffffcc {

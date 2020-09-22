@@ -1,4 +1,4 @@
-```uml
+```plantuml
 @startuml
 rectangle Hardware {
   node "Memory Device" as MD #ffffcc {

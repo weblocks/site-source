@@ -1,4 +1,4 @@
-```uml
+```plantuml
 @startuml
 rectangle Tools {
   (GitHub)
