@@ -1,2 +1,4 @@
 - name: ドキュメント
   link: /documents/index
+- name: 設計
+  link: /design/index

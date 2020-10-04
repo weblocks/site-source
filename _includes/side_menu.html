@@ -9,10 +9,10 @@
       {% assign level1_show = "" %}
     {% endif %}
 
-    <a class="list-group-item bg-light p-0 border-0 text-reset font-weight-bold collapse-arrow" data-toggle="collapse" href="#collapse{{ level1.category }}" aria-expanded="{{ level1_collapse }}" aria-controlls="collapse{{ level1.category }}">
+    <a class="list-group-item bg-light p-0 border-0 text-reset font-weight-bold collapse-arrow" data-toggle="collapse" href="#collapse{{ level1.category | replace: ".", "-" | replace: " ", "" }}" aria-expanded="{{ level1_collapse }}" aria-controlls="collapse{{ level1.category | repace: ".", "-" | replace: " ", "" }}">
       {{ level1.category }}
     </a>
-    <div class="collapse list-group {{ level1_show }}" id="collapse{{ level1.category }}">
+    <div class="collapse list-group {{ level1_show }}" id="collapse{{ level1.category | replace: ".", "-" | replace: " ", "" }}">
     {% for level2 in level1.contents %}
       {% if page.category2 == level2.category %}
         {% assign level2_collapse = "true" %}
@@ -22,10 +22,10 @@
         {% assign level2_show = "" %}
       {% endif %}
       {% if level2.category %}
-        <a class="list-group-item bg-light border-0 text-reset font-weight-bold collapse-arrow" style="padding: 0px; padding-left: 20px" data-toggle="collapse" href="#collapse{{ level2.category }}" aria-expanded="{{ level2_collapse }}" aria-controlls="collapse{{ level2.category }}">
+        <a class="list-group-item bg-light border-0 text-reset font-weight-bold collapse-arrow" style="padding: 0px; padding-left: 20px" data-toggle="collapse" href="#collapse{{ level2.category | replace: ".", "-" | replace: " ", "" }}" aria-expanded="{{ level2_collapse }}" aria-controlls="collapse{{ level2.category | replace: ".", "-" | replace: " ", ""}}">
           {{ level2.category }}
         </a>
-        <div class="collapse list-group {{ level2_show }}" id="collapse{{ level2.category }}">
+        <div class="collapse list-group {{ level2_show }}" id="collapse{{ level2.category | replace: ".", "-" | replace: " ", "" }}">
         {% for level3 in level2.contents %}
           <a class="list-group-item bg-light border-0 text-reset" style="padding: 0px; padding-left: 60px" href="{{ level3.link }}">{{ level3.name }}</a>
         {% endfor %}
