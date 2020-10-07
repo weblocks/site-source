@@ -19,6 +19,36 @@ category: "バージョン 0.1"
   <div class="row">
     <div class="col-12">
       <p>
+        基本設計で決まったレイヤについて決めるけど、その前にフレームワークとしてPhalconを使うのでWeblocks全体のディレクトリ構成を決めるね。
+      </p>
+        <pre><code class="language-treeview">htdocs/
+`-- weblocks/
+    |-- .htaccess
+    |-- app/
+    |   `-- index/
+    |       |-- IndexController.php
+    |       `-- index.volt
+    |-- system/
+    |   `-- layouts/
+    |       |-- base/
+    |       |   `-- default.volt
+    |       `-- floor/
+    |           `-- default.volt
+    `-- public/
+        |-- .htaccess
+        |-- index.php
+        `-- css/
+            `-- weblocks.css</code></pre>
+      <p>
+        フレームワークとしてPhalconを使うから
+        <ul>
+          <li>土台レイア・・・Main Layout</li>
+          <li>間取りレイヤ・・Controller Layout</li>
+          <li>部屋レイヤ・・・Action View</li>
+        </ul>
+        と言う事になるね。
+      </p>
+      <p>
       </p>
     </div>
   </div>
