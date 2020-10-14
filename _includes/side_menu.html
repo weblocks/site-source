@@ -27,11 +27,11 @@
         </a>
         <div class="collapse list-group {{ level2_show }}" id="collapse{{ level2.category | replace: ".", "-" | replace: " ", "" }}">
         {% for level3 in level2.contents %}
-          <a class="list-group-item bg-light border-0 text-reset" style="padding: 0px; padding-left: 60px" href="{{ level3.link }}">{{ level3.name }}</a>
+          <a class="list-group-item bg-light border-0 {% if page.url == level3.link %} text-primary {% else %} text-reset {% endif %}" style="padding: 0px; padding-left: 60px" href="{{ level3.link }}">{{ level3.name }}</a>
         {% endfor %}
         </div>
       {% endif %}
-      <a class="list-group-item bg-light border-0 text-reset" style="padding: 0px; padding-left: 40px" href="{{ level2.link }}">{{ level2.name }}</a>
+      <a class="list-group-item bg-light border-0 {% if page.url == level2.link %} text-primary {% else %} text-reset {% endif %}" style="padding: 0px; padding-left: 40px" href="{{ level2.link }}">{{ level2.name }}</a>
     {% endfor %}
     </div>
   {% endfor %}
