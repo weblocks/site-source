@@ -28,7 +28,7 @@ category: ""
     </div>
     <div class="col-12 col-md-6">
       <figure class="figure">
-        <img src="/assets/images/weblocks_dependency.png" class="figure-img img-fluid rounded m-0" alt="Weblocks Dependency">
+        <img src="/assets/images/documents/weblocks_dependency.png" class="figure-img img-fluid rounded m-0" alt="Weblocks Dependency">
         <figcaption class="figure-caption text-right">図1</figcaption>
       </figure>
     </div>

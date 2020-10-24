@@ -31,7 +31,7 @@ category: "Weblocks"
     </div>
     <div class="col-12 col-md-6">
       <figure class="figure">
-        <img src="/assets/images/baby_in_wall_city.png" class="figure-img img-fluid rounded m-0" alt="baby in wall city">
+        <img src="/assets/images/documents/weblocks/baby_in_wall_city.png" class="figure-img img-fluid rounded m-0" alt="baby in wall city">
       </figure>
     </div>
   </div>

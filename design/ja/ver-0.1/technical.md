@@ -18,37 +18,32 @@ category: "バージョン 0.1"
   </div>
   <div class="row">
     <div class="col-12">
+      <h2>作り方</h2>
       <p>
-        基本設計で決まったレイヤについて決めるけど、その前にフレームワークとしてPhalconを使うのでWeblocks全体のディレクトリ構成を決めるね。
+        ディレクトリ構造は以下の様になるよ。Phalconの標準的な構造だ。
+        違いはapp/Application.phpだね。Phalconのチュートリアルではpublic/index.phpで行なっていたアプリケーションの初期化やリクエスト処理をクラス化したんだ。
       </p>
+      <p>
         <pre><code class="language-treeview">htdocs/
 `-- weblocks/
     |-- .htaccess
     |-- app/
+    |   |-- Application.php
     |   `-- index/
     |       |-- IndexController.php
-    |       `-- index.volt
-    |-- system/
-    |   `-- layouts/
-    |       |-- base/
-    |       |   `-- default.volt
-    |       `-- floor/
-    |           `-- default.volt
+    |       `-- index.html
     `-- public/
         |-- .htaccess
-        |-- index.php
-        `-- css/
-            `-- weblocks.css</code></pre>
-      <p>
-        フレームワークとしてPhalconを使うから
-        <ul>
-          <li>土台レイア・・・Main Layout</li>
-          <li>間取りレイヤ・・Controller Layout</li>
-          <li>部屋レイヤ・・・Action View</li>
-        </ul>
-        と言う事になるね。
+        `-- index.php</code></pre>
       </p>
       <p>
+        流れは以下の様にするね。
+      </p>
+      <p>
+        <figure class="figure">
+          <img src="/assets/images/design/ver-0.1/sequence.png" class="figure-img img-fluid rounded m-0" alt="sequence">
+          <figcaption class="figure-caption text-right">図1</figcaption>
+        </figure>
       </p>
     </div>
   </div>
