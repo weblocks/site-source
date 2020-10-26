@@ -37,13 +37,17 @@ category: "バージョン 0.1"
         `-- index.php</code></pre>
       </p>
       <p>
-        流れは以下の様にするね。
+        全体の流れは以下の様にするね。
       </p>
       <p>
         <figure class="figure">
-          <img src="/assets/images/design/ver-0.1/sequence.png" class="figure-img img-fluid rounded m-0" alt="sequence">
+          <img src="/assets/images/design/ver-0.1/overall_sequence.png" class="figure-img img-fluid rounded m-0" alt="sequence">
           <figcaption class="figure-caption text-right">図1</figcaption>
         </figure>
+      </p>
+      <p>
+        これで何故app/index/index.htmlが表示されか疑問だよね。理由を知りたいならPhalconのドキュメントを読んでみて。
+        ここではPhalconの標準的な設定ではapp/index/IndexController.phpが呼ばれた後にapp/index/index.htmlが表示されるとだけ覚えてね。
       </p>
     </div>
   </div>

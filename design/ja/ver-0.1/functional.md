@@ -20,7 +20,10 @@ category: "バージョン 0.1"
     <div class="col-12">
       <h2>作る物</h2>
       <p>
-        「Hello Weblocks」と表示するページ
+        <ul>
+          <li>「Hello Weblocks」と表示するページ</li>
+          <li>Phalconの雛形に沿ったアプリケーション・クラス</li>
+        </ul>
       </p>
     </div>
   </div>
