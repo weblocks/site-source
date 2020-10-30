@@ -31,7 +31,7 @@ category: "バージョン 0.1"
     |   |-- Application.php
     |   `-- index/
     |       |-- IndexController.php
-    |       `-- index.html
+    |       `-- index.phtml
     `-- public/
         |-- .htaccess
         `-- index.php</code></pre>
@@ -46,8 +46,19 @@ category: "バージョン 0.1"
         </figure>
       </p>
       <p>
-        これで何故app/index/index.htmlが表示されか疑問だよね。理由を知りたいならPhalconのドキュメントを読んでみて。
-        ここではPhalconの標準的な設定ではapp/index/IndexController.phpが呼ばれた後にapp/index/index.htmlが表示されるとだけ覚えてね。
+        これで何故app/index/index.phtmlが表示されか疑問だよね。理由を知りたいならPhalconのドキュメントを読んでみて。
+        ここではPhalconの標準的な設定ではapp/index/IndexController.phpが呼ばれた後にapp/index/index.phtmlが表示されるとだけ覚えてね。
+      </p>
+      <p>
+        Phalconの標準とは違ってWeblocks特有の設定についてだけ説明するね。
+      </p>
+      <p>
+        コントローラのパスはapp/&lt;コントローラ名&gt;とするね。
+        だからコントローラ数だけapp/以下にはフォルダが存在するんだ。
+      </p>
+      <p>
+        ビューのパスはapp/とするね。
+        これでコントローラとビューは同じapp/&lt;コントローラ名&gt;内に集める事ができるんだ。
       </p>
     </div>
   </div>
