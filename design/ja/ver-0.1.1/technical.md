@@ -24,6 +24,8 @@ category: "バージョン 0.1.1"
           <li>index.phtmlをindex.voltに変更</li>
           <li>コントローラから受け取った文字列を表示：index.volt</li>
           <li>ビューへ文字列を渡す：IndexController.php</li>
+          <li>voltサービスの登録：Application.php</li>
+          <li>voltコンパイル済みファイルの為のフォルダを用意</li>
         </ul>
       </p>
       <p>
@@ -35,11 +37,13 @@ category: "バージョン 0.1.1"
     |   `-- index/
     |       |-- IndexController.php
     |       `-- index.volt
+    |-- cache/
     `-- public/
         |-- .htaccess
         `-- index.php</code></pre>
       </p>
       <p>
+        cacheフォルダはApache実行ユーザの書き込み権限が必要だよ。
       </p>
     </div>
   </div>
