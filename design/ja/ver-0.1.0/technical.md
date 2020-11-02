@@ -1,19 +1,19 @@
 ---
 layout: default
-title: 詳細設計 Ver.0.1 
-description: weblocksの詳細設計 Ver.0.1
+title: 詳細設計 Ver.0.1.0
+description: weblocksの詳細設計 Ver.0.1.0
 keywords: weblocksの詳細設計, 設計
-permalink: /design/ver-0.1/technical
+permalink: /design/ver-0.1.0/technical
 lang: 'ja'
-canonical_url: 'https://weblocks.github.io/design/ver-0.1/technical'
+canonical_url: 'https://weblocks.github.io/design/ver-0.1.0/technical'
 sideMenu: true
 sideMenuName: 設計
-category: "バージョン 0.1"
+category: "バージョン 0.1.0"
 ---
 <div class="container-fluid">
   <div class="row">
     <div class="col">
-      <h1>詳細設計 (ver 0.1)</h1>
+      <h1>詳細設計 (ver 0.1.0)</h1>
     </div>
   </div>
   <div class="row">

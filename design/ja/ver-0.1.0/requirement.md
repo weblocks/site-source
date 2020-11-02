@@ -1,19 +1,19 @@
 ---
 layout: default
-title: 要件分析 Ver.0.1 
-description: weblocksの要件分析 Ver.0.1
+title: 要件分析 Ver.0.1.0
+description: weblocksの要件分析 Ver.0.1.0
 keywords: weblocksの要件分析, 設計
-permalink: /design/ver-0.1/requirement
+permalink: /design/ver-0.1.0/requirement
 lang: 'ja'
-canonical_url: 'https://weblocks.github.io/design/ver-0.1/requirement'
+canonical_url: 'https://weblocks.github.io/design/ver-0.1.0/requirement'
 sideMenu: true
 sideMenuName: 設計
-category: "バージョン 0.1"
+category: "バージョン 0.1.0"
 ---
 <div class="container-fluid">
   <div class="row">
     <div class="col">
-      <h1>要件分析 (ver 0.1)</h1>
+      <h1>要件分析 (ver 0.1.0)</h1>
     </div>
   </div>
   <div class="row">
