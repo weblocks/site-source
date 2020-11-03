@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ドキュメント
+title: Weblocksの発音
 description: weblocksに関する資料が全てここにあります
 keywords: weblocksの発音, ドキュメント
 permalink: /documents/weblocks/pronunciation
