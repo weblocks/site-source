@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documents
+title: Pronunciation of Weblocks
 description: All about weblocks
 keywords: weblocks pronunciation, documents
 permalink: /documents/weblocks/pronunciation
