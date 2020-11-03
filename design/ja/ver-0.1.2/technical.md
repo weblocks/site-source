@@ -37,6 +37,7 @@ category: "バージョン 0.1.2"
     |   |-- .htaccess
     |   `-- index.php
     `-- setup/
+        |-- Application.php
         |-- schema.php
         `-- setup.php</code></pre>
       </p>
