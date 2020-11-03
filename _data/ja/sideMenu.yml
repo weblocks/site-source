@@ -82,3 +82,12 @@
       link: /design/ver-0.1.1/functional
     - name: 詳細設計
       link: /design/ver-0.1.1/technical
+
+  - category: バージョン 0.1.2
+    contents:
+    - name: 要件分析
+      link: /design/ver-0.1.2/requirement
+    - name: 基本設計
+      link: /design/ver-0.1.2/functional
+    - name: 詳細設計
+      link: /design/ver-0.1.2/technical
