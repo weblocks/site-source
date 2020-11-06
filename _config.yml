@@ -6,7 +6,7 @@ exclude_from_localization: ['javascript', 'images']
 parallel_localization: true
 lang_from_path: true
 
-url: "https://weblocks.github.io"
+url: "https://docs.weblocks.net"
 
 plugins:
   - jekyll-polyglot

@@ -5,7 +5,7 @@ description: weblocksの基本設計 Ver.0.1.2
 keywords: weblocksの基本設計, 設計
 permalink: /design/ver-0.1.2/functional
 lang: 'ja'
-canonical_url: 'https://weblocks.github.io/design/ver-0.1.2/functional'
+canonical_url: 'https://docs.weblocks.net/design/ver-0.1.2/functional'
 sideMenu: true
 sideMenuName: 設計
 category: "バージョン 0.1.2"

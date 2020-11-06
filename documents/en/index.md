@@ -5,7 +5,7 @@ description: Find all weblocks documents here
 keywords: weblocks, documents
 permalink: /documents/index
 lang: 'en'
-canonical_url: 'https://weblocks.github.io/documents/index'
+canonical_url: 'https://docs.weblocks.net/documents/index'
 sideMenu: true
 sideMenuName: documents
 category: ""

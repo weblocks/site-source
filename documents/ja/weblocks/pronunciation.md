@@ -5,7 +5,7 @@ description: weblocksに関する資料が全てここにあります
 keywords: weblocksの発音, ドキュメント
 permalink: /documents/weblocks/pronunciation
 lang: 'ja'
-canonical_url: 'https://weblocks.github.io/documents/weblocks/pronunciation'
+canonical_url: 'https://docs.weblocks.net/documents/weblocks/pronunciation'
 sideMenu: true
 sideMenuName: ドキュメント
 category: "Weblocks"

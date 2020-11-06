@@ -5,7 +5,7 @@ description: All about weblocks
 keywords: weblocks pronunciation, documents
 permalink: /documents/weblocks/pronunciation
 lang: 'en'
-canonical_url: 'https://weblocks.github.io/documents/weblocks/pronunciation'
+canonical_url: 'https://docs.weblocks.net/documents/weblocks/pronunciation'
 sideMenu: true
 sideMenuName: documents
 category: "Weblocks"

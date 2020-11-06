@@ -5,7 +5,7 @@ description: weblocksの設計書が全てここにあります
 keywords: weblocks, design
 permalink: /design/index
 lang: 'ja'
-canonical_url: 'https://weblocks.github.io/design/index'
+canonical_url: 'https://docs.weblocks.net/design/index'
 sideMenu: true
 sideMenuName: 設計
 category: ""

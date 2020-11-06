@@ -5,7 +5,7 @@ description: weblocksの要件分析 Ver.0.1.0
 keywords: weblocksの要件分析, 設計
 permalink: /design/ver-0.1.0/requirement
 lang: 'ja'
-canonical_url: 'https://weblocks.github.io/design/ver-0.1.0/requirement'
+canonical_url: 'https://docs.weblocks.net/design/ver-0.1.0/requirement'
 sideMenu: true
 sideMenuName: 設計
 category: "バージョン 0.1.0"
