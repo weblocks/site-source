@@ -12,16 +12,20 @@
       <p>
         {% case page.lang %}
           {% when "ja" %}
-            WeblocksはPhalconを使ったオープンソースのCMSだよ。<br>
-            部品を組み合わせる事でWebアプリケーションが作れるよ。<br>
-            君だけのWebアプリケーションを作ってみよう。<br>
-            <br>
+            WeblocksはPhalconを使ったオープンソースのCMSなんだ。
+            部品を組み合わせる事でWebアプリケーションが作れるよ。
+            君だけのWebアプリケーションを作ってみよう。
+          {% else %}
+            Weblocks is an open source CMS using Phalcon.
+            You can create a web application by combining parts.
+            Let's create your own web application.
+        {% endcase %}
+      </p>
+      <p>
+        {% case page.lang %}
+          {% when "ja" %}
             クラウド版とデモは準備中なんだ。もう少し待ってね。
           {% else %}
-            Weblocks is an open source CMS using Phalcon.<br>
-            You can create a web application by combining parts.<br>
-            Let's create your own web application.<br>
-            <br>
             Cloud version and demo will be available soon.
         {% endcase %}
       </p>
