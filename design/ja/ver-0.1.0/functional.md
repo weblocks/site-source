@@ -20,9 +20,11 @@ category: "バージョン 0.1.0"
     <div class="col-12">
       <h2>作る物</h2>
       <p>
+        要件分析から作る物は次の通りだよ。
         <ul>
+          <li>Phalconの標準的なディレクトリ構造</li>
+          <li>Weblocksと言うアプリケーションを定義するクラス</li>
           <li>「Hello Weblocks」と表示するページ</li>
-          <li>Phalconの雛形に沿ったアプリケーション・クラス</li>
         </ul>
       </p>
     </div>
