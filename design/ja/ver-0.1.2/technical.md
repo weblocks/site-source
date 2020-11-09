@@ -20,6 +20,11 @@ category: "バージョン 0.1.2"
     <div class="col-12">
       <h2>作り方</h2>
       <p>
+        <ul>
+          <li>導入スクリプトの追加：setup/setup.php, Application.php</li>
+          <li>データベース定義の追加：setup/schema.php</li>
+          <li>データベース接続定義：conf/database.ini</li>
+        </ul>
       </p>
       <p>
         <pre><code class="language-treeview">htdocs/

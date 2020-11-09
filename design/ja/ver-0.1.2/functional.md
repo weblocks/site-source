@@ -20,11 +20,15 @@ category: "バージョン 0.1.2"
     <div class="col-12">
       <h2>作る物</h2>
       <p>
+        要件分析から作る物は次の通りだよ。
         <ul>
           <li>Weblocksを導入するスクリプト：setup.php</li>
           <li>データベース設計：schema.php</li>
           <li>データベース接続情報：database.ini</li>
         </ul>
+      </p>
+      <p>
+        database.iniはsetup.phpから自動で作成される様にするよ。
       </p>
     </div>
   </div>
