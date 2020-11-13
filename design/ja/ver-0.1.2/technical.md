@@ -27,14 +27,37 @@ category: "バージョン 0.1.2"
         </ul>
       </p>
       <p>
+        データベースにはロールとユーザを登録できる様にするね。
+        でも、それぞれ用にテーブルを用意せず１つのテーブルで色々なデータを登録できる様にするんだ。
+        なのでテーブルはnodesテーブルだけで、ロールとユーザはビューで見れる様にするね。
+      </p>
+      <p>
+        その為に次も作成するね。
+        <ul>
+          <li>nodesテーブルのモデル：app/nodes/Nodes.php</li>
+          <li>usersビューのモデル：app/users/Users.php</li>
+          <li>SQL文の違いを吸収する言語変換：app/trans/Translate.php</li>
+          <li>MySQLとPostgreSQL用のSQL文：app/trans/languages/mysql.php, postgresql.php</li>
+        </ul>
+      </p>
+      <p>
         <pre><code class="language-treeview">htdocs/
 `-- weblocks/
     |-- .htaccess
     |-- app/
     |   |-- Application.php
-    |   `-- index/
-    |       |-- IndexController.php
-    |       `-- index.volt
+    |   |-- index/
+    |   |   |-- IndexController.php
+    |   |   `-- index.volt
+    |   |-- nodes/
+    |   |   `-- Nodes.php
+    |   |-- trans/
+    |   |   |-- Translate.php
+    |   |   `-- languages/
+    |   |       |-- mysql.php
+    |   |       `-- postgresql.php
+    |   `-- users/
+    |       |-- Users.php
     |-- cache/
     |-- conf/
     |   `-- database.ini
@@ -47,6 +70,8 @@ category: "バージョン 0.1.2"
         `-- setup.php</code></pre>
       </p>
       <p>
+        上のディレクトリ構造にはないけど、languages/en.phpとlanguages/ja.phpも作成しておくね。
+        これは将来用だよ。日本語と英語に対応する為だよ。
       </p>
     </div>
   </div>
