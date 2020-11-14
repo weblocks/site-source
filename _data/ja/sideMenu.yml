@@ -65,23 +65,14 @@
       link: /documents/weblocks/pronunciation
 
 設計:
-  - category: バージョン 0.1.0
+  - category: バージョン 0.1.3
     contents:
     - name: 要件分析
-      link: /design/ver-0.1.0/requirement
+      link: /design/ver-0.1.3/requirement
     - name: 基本設計
-      link: /design/ver-0.1.0/functional
+      link: /design/ver-0.1.3/functional
     - name: 詳細設計
-      link: /design/ver-0.1.0/technical
-
-  - category: バージョン 0.1.1
-    contents:
-    - name: 要件分析
-      link: /design/ver-0.1.1/requirement
-    - name: 基本設計
-      link: /design/ver-0.1.1/functional
-    - name: 詳細設計
-      link: /design/ver-0.1.1/technical
+      link: /design/ver-0.1.3/technical
 
   - category: バージョン 0.1.2
     contents:
@@ -92,11 +83,20 @@
     - name: 詳細設計
       link: /design/ver-0.1.2/technical
 
-  - category: バージョン 0.1.3
+  - category: バージョン 0.1.1
     contents:
     - name: 要件分析
-      link: /design/ver-0.1.3/requirement
+      link: /design/ver-0.1.1/requirement
     - name: 基本設計
-      link: /design/ver-0.1.3/functional
+      link: /design/ver-0.1.1/functional
     - name: 詳細設計
-      link: /design/ver-0.1.3/technical
+      link: /design/ver-0.1.1/technical
+
+  - category: バージョン 0.1.0
+    contents:
+    - name: 要件分析
+      link: /design/ver-0.1.0/requirement
+    - name: 基本設計
+      link: /design/ver-0.1.0/functional
+    - name: 詳細設計
+      link: /design/ver-0.1.0/technical
