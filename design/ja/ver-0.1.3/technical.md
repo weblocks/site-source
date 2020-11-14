@@ -23,10 +23,18 @@ category: "バージョン 0.1.3"
         <ul>
           <li>ユーザ一覧の取得を追加：app/index/IndexController.php</li>
           <li>ユーザ一覧の表示を追加：app/index/index.volt</li>
+          <li>サービスの追加：app/Application.php</li>
         </ul>
       </p>
       <p>
         ディレクト構造に変わりはないよ。
+      </p>
+      <p>
+        サービスとしては次を追加するね。
+        <ul>
+          <li>データベース：db</li>
+          <li>言語変換：trans</li>
+        </ul>
       </p>
     </div>
   </div>
