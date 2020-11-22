@@ -60,6 +60,12 @@ category: "バージョン 0.1.4"
         |-- schema.php
         `-- setup.php</code></pre>
       </p>
+      <p>
+        サービスとしては次を追加するね。
+        <ul>
+          <li>セッション：session</li>
+        </ul>
+      </p>
     </div>
   </div>
 </div>
