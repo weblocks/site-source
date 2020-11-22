@@ -35,10 +35,10 @@ category: "バージョン 0.1.4"
     |   |-- index/
     |   |   |-- IndexController.php
     |   |   `-- index.volt
-    |   |-- Login/
+    |   |-- login/
     |   |   |-- LoginController.php
     |   |   `-- index.volt
-    |   |-- Logout/
+    |   |-- logout/
     |   |   `-- LogoutController.php
     |   |-- nodes/
     |   |   `-- Nodes.php
