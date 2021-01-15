@@ -23,12 +23,15 @@ category: "バージョン 0.1.4"
         要件分析から作る物は次の通りだよ。
         <ul>
           <li>ログイン画面：LoginController.php, index.volt</li>
-          <li>管理画面：AdminController.php, index.volt</li>
           <li>ログアウト処理：LogoutController.php</li>
         </ul>
       </p>
       <p>
         ログイン処理はデータベースに登録されているユーザIDとパスワードにて行うよ。
+      </p>
+      <p>
+        ログイン処理後にトップページへ移動する為にWeblocksのルートディレクトリを指定する必要があるんだ。
+        導入スクリプトの最後でconf/system.iniを作成してbaseDirで指定するね。
       </p>
     </div>
   </div>

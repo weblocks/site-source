@@ -24,6 +24,7 @@ category: "バージョン 0.1.4"
           <li>ログイン処理：app/login/LoginController.php</li>
           <li>ログイン画面：app/login/index.volt</li>
           <li>ログアウト処理：app/logout/LogoutController.php</li>
+          <li>導入スクリプト：setup/Application.php  (system.ini作成追加)</li>
         </ul>
       </p>
       <p>
@@ -51,7 +52,8 @@ category: "バージョン 0.1.4"
     |       |-- Users.php
     |-- cache/
     |-- conf/
-    |   `-- database.ini
+    |   |-- database.ini
+    |   `-- system.ini
     |-- public/
     |   |-- .htaccess
     |   `-- index.php
