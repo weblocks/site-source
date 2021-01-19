@@ -65,6 +65,15 @@
       link: /documents/weblocks/pronunciation
 
 設計:
+  - category: バージョン 0.1.5
+    contents:
+    - name: 要件分析
+      link: /design/ver-0.1.5/requirement
+    - name: 基本設計
+      link: /design/ver-0.1.5/functional
+    - name: 詳細設計
+      link: /design/ver-0.1.5/technical
+
   - category: バージョン 0.1.4
     contents:
     - name: 要件分析
