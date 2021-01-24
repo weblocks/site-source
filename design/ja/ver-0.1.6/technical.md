@@ -30,7 +30,7 @@ category: "バージョン 0.1.6"
     |-- app/
     |   |-- Application.php
     |   |-- admin/
-    |   |   |-- IndexController.php
+    |   |   |-- AdminController.php
     |   |   `-- index.volt
     |   |-- index/
     |   |   |-- IndexController.php
