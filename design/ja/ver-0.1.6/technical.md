@@ -21,6 +21,10 @@ category: "バージョン 0.1.6"
       <h2>作り方</h2>
       <p>
         <ul>
+          <li>初期DBに管理画面登録：system/schema.php</li>
+          <li>管理画面の追加：app/admin/AdminController.php, app/admin/index.volt</li>
+          <li>ログイン処理の変更：app/login/LoginController.php</li>
+          <li>ホーム画面モデルの追加：app/homes/Homes.php</li>
         </ul>
       </p>
       <p>
@@ -32,6 +36,8 @@ category: "バージョン 0.1.6"
     |   |-- admin/
     |   |   |-- AdminController.php
     |   |   `-- index.volt
+    |   |-- homes/
+    |   |   `-- Homes.php
     |   |-- index/
     |   |   |-- IndexController.php
     |   |   `-- index.volt
